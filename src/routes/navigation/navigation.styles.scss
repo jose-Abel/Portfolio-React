@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  font-size: 2rem;
+  height: 7rem;
+  align-items: center;
+  background: #3e3c3c;
+  color: white;
+}
+
+.navbar-name {
+  margin-left: 2rem;
+}
+
+.navbar-name-p {
+  color: #fff;
+}
+
+.navbar-ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-li-link {
+  margin-left: 4rem;
+}
+
+.fa-envelope {
+  margin-left: 2rem;
+}
+
+.navbar-a-link {
+  color: white;
+}
