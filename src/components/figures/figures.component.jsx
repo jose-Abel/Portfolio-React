@@ -1,144 +1,47 @@
 import "./figures.styles.scss";
-import icons from "../../assets/images/sprite.svg";
+import Icon from "../icon/icon.component";
 
 const Figures = () => {
 	return (
 		<div className="hero-section-figures">
-
-			<svg className="vector1">
-				<use xlinkHref={`${icons}#icon-Vector`}></use>
-			</svg>
-
-			<svg className="vector2">
-				<use xlinkHref={`${icons}#icon-Vector3`}></use>
-			</svg>
-
-			<svg className="vector3">
-				<use xlinkHref={`${icons}#icon-Vector3`}></use>
-			</svg>
-
-			<svg className="vector4">
-				<use xlinkHref={`${icons}#icon-Vector4`}></use>
-			</svg>
-
-			<svg className="vector5">
-				<use xlinkHref={`${icons}#icon-Vector5`}></use>
-			</svg>
-
-			<svg className="vector6">
-				<use xlinkHref={`${icons}#icon-Vector6`}></use>
-			</svg>
-
-			<svg className="vector7">
-				<use xlinkHref={`${icons}#icon-Vector7`}></use>
-			</svg>
-
-			<svg className="vector7-1">
-				<use xlinkHref={`${icons}#icon-Vector7`}></use>
-			</svg>
-
-			<svg className="vector8">
-				<use xlinkHref={`${icons}#icon-Vector8`}></use>
-			</svg>
-
-			<svg className="vector8-2">
-				<use xlinkHref={`${icons}#icon-Vector8`}></use>
-			</svg>
-
-			<svg className="vector9">
-				<use xlinkHref={`${icons}#icon-Vector9`}></use>
-			</svg>
-
+			<Icon propClass="vector1" name="icon-Vector" />
+			<Icon propClass="vector2" name="icon-Vector3" />
+			<Icon propClass="vector3" name="icon-Vector3" />
+			<Icon propClass="vector4" name="icon-Vector4" />
+			<Icon propClass="vector5" name="icon-Vector5" />
+			<Icon propClass="vector6" name="icon-Vector6" />
+			<Icon propClass="vector7" name="icon-Vector7" />
+			<Icon propClass="vector7-1" name="icon-Vector7" />
+			<Icon propClass="vector8" name="icon-Vector8" />
+			<Icon propClass="vector8-2" name="icon-Vector8" />
+			<Icon propClass="vector9" name="icon-Vector9" />
 			<div className="line-1"></div>
-
-			<svg className="vector10">
-				<use xlinkHref={`${icons}#icon-Vector10`}></use>
-			</svg>
-
-			<svg className="vector11">
-				<use xlinkHref={`${icons}#icon-Vector11`}></use>
-			</svg>
-
-			<svg className="vector12">
-				<use xlinkHref={`${icons}#icon-Vector12`}></use>
-			</svg>
-
-			<svg className="vector13">
-				<use xlinkHref={`${icons}#icon-Vector13`}></use>
-			</svg>
-
-			<svg className="vector14">
-				<use xlinkHref={`${icons}#icon-Vector14`}></use>
-			</svg>
-
-			<svg className="vector15">
-				<use xlinkHref={`${icons}#icon-Vector15`}></use>
-			</svg>
-
-			<svg className="vector16">
-				<use xlinkHref={`${icons}#icon-Vector16`}></use>
-			</svg>
-
+			<Icon propClass="vector10" name="icon-Vector10" />
+			<Icon propClass="vector11" name="icon-Vector11" />
+			<Icon propClass="vector12" name="icon-Vector12" />
+			<Icon propClass="vector13" name="icon-Vector13" />
+			<Icon propClass="vector14" name="icon-Vector14" />
+			<Icon propClass="vector15" name="icon-Vector15" />
+			<Icon propClass="vector16" name="icon-Vector16" />
 			<div className="line-3"></div>
-
-			<svg className="vector18">
-				<use xlinkHref={`${icons}#icon-Vector18`}></use>
-			</svg>
-
-			<svg className="vector19">
-				<use xlinkHref={`${icons}#icon-Vector19`}></use>
-			</svg>
-
+			<Icon propClass="vector18" name="icon-Vector18" />
+			<Icon propClass="vector19" name="icon-Vector19" />
+			<Icon propClass="vector16" name="icon-Vector16" />
+			<Icon propClass="vector16" name="icon-Vector16" />
 			<div className="line-4"></div>
-
-			<svg className="vector21">
-				<use xlinkHref={`${icons}#icon-Vector21`}></use>
-			</svg>
-
-			<svg className="vector21-1">
-				<use xlinkHref={`${icons}#icon-Vector21`}></use>
-			</svg>
-
-			<svg className="vector21-2">
-				<use xlinkHref={`${icons}#icon-Vector21`}></use>
-			</svg>
-
-			<svg className="vector21-3">
-				<use xlinkHref={`${icons}#icon-Vector21`}></use>
-			</svg>
-
-			<svg className="vector21-4">
-				<use xlinkHref={`${icons}#icon-Vector21`}></use>
-			</svg>
-
-			<svg className="vector21-5">
-				<use xlinkHref={`${icons}#icon-Vector21`}></use>
-			</svg>
-
+			<Icon propClass="vector21" name="icon-Vector21" />
+			<Icon propClass="vector21-1" name="icon-Vector21" />
+			<Icon propClass="vector21-2" name="icon-Vector21" />
+			<Icon propClass="vector21-3" name="icon-Vector21" />
+			<Icon propClass="vector21-4" name="icon-Vector21" />
+			<Icon propClass="vector21-5" name="icon-Vector21" />
 			<div className="line-5"></div>
-
-			<svg className="vector39">
-				<use xlinkHref={`${icons}#icon-Vector39`}></use>
-			</svg>
-
-			<svg className="vector40">
-				<use xlinkHref={`${icons}#icon-Vector40`}></use>
-			</svg>
-
-			<svg className="vector41">
-				<use xlinkHref={`${icons}#icon-Vector41`}></use>
-			</svg>
-
-			<svg className="vector42">
-				<use xlinkHref={`${icons}#icon-Vector42`}></use>
-			</svg>
-
-			<svg className="vector43">
-				<use xlinkHref={`${icons}#icon-Vector43`}></use>
-			</svg>
-
+			<Icon propClass="vector39" name="icon-Vector39" />
+			<Icon propClass="vector40" name="icon-Vector40" />
+			<Icon propClass="vector41" name="icon-Vector41" />
+			<Icon propClass="vector42" name="icon-Vector42" />
+			<Icon propClass="vector43" name="icon-Vector43" />
 			<div className="line-2"></div>
-
 		</div>
 	);
 }
