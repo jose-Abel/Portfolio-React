@@ -1,6 +1,5 @@
 import Hero from "../../components/hero/hero.component";
 import Figures from "../../components/figures/figures.component";
-
 import "./home.styles.scss";
 
 const Home = () => {
