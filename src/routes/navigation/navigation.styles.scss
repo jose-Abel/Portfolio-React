@@ -7,29 +7,29 @@
   align-items: center;
   background: #3e3c3c;
   color: white;
-}
 
-.navbar-name {
-  margin-left: 2rem;
-}
+  &-name {
+    margin-left: 2rem;
 
-.navbar-name-p {
-  color: #fff;
-}
+    &-p {
+      color: #fff;
+    }
+  }
 
-.navbar-ul {
-  display: flex;
-  list-style: none;
-}
+  &-ul {
+    display: flex;
+    list-style: none;
+  }
 
-.navbar-li-link {
-  margin-left: 4rem;
+  &-li-link {
+    margin-left: 4rem;
+  }
+
+  &-a-link {
+    color: white;
+  }
 }
 
 .fa-envelope {
   margin-left: 2rem;
-}
-
-.navbar-a-link {
-  color: white;
 }

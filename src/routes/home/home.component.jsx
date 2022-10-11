@@ -1,12 +1,14 @@
-// import Hero from "../../components/hero/hero.component";
+import Hero from "../../components/hero/hero.component";
+import Figures from "../../components/figures/figures.component";
+
 import "./home.styles.scss";
 
 const Home = () => {
-	console.log("Im running")
 	return (
-		<h1 className="home-container">
-			Home
-		</h1>
+		<section className="hero-section">
+			<Hero />
+			<Figures />
+		</section>
 	);
 }
 

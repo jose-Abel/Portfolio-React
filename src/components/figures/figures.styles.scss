@@ -1,0 +1,318 @@
+.hero-section-figures {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+
+.vector1 {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.vector2 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  bottom: 16rem;
+  left: 16rem;
+  z-index: 2;
+}
+
+.vector3 {
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  bottom: 32rem;
+  left: 11rem;
+  z-index: 3;
+}
+
+.vector4 {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  bottom: 10rem;
+  left: 2rem;
+  z-index: 1;
+}
+
+.vector5 {
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  bottom: 32rem;
+  left: 12.5rem;
+  z-index: 2;
+}
+
+.vector6 {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+}
+
+.vector7 {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  bottom: 28rem;
+  right: 23rem;
+  z-index: 1;
+}
+
+.vector7-1 {
+  width: 9rem;
+  height: 10rem;
+  position: absolute;
+  top: 2.5rem;
+  right: 12rem;
+  z-index: 1;
+}
+
+.vector43 {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  bottom: 26.5rem;
+  right: 22rem;
+}
+
+.vector8 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  bottom: 12.9rem;
+  left: 35.7rem;
+}
+
+.vector9 {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 31rem;
+  right: 26rem;
+  z-index: 1;
+}
+
+.line-1 {
+  width: 22.5rem;
+  height: 4.7rem;
+  border-bottom: 2px solid orangered;
+  position: absolute;
+  top: 19.7rem;
+  right: 8.5rem;
+  transform: rotate(115deg);
+  z-index: 3;
+}
+
+.vector8-2 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  bottom: 10.2rem;
+  left: 40rem;
+}
+
+.vector39 {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  bottom: 6rem;
+  left: 47.5rem;
+}
+
+.vector40 {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  bottom: 10rem;
+  left: 33.5rem;
+}
+
+.vector10 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  bottom: 2.2rem;
+  left: 35rem;
+}
+
+.vector41 {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  bottom: 6.8rem;
+  left: 27rem;
+}
+
+.vector11 {
+  width: 30rem;
+  height: 30rem;
+  position: absolute;
+  bottom: 10rem;
+  right: 2rem;
+}
+
+.vector12 {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  bottom: 7.3rem;
+  left: 43.3rem;
+}
+
+.vector13 {
+  width: 28rem;
+  height: 38rem;
+  position: absolute;
+  bottom: 8rem;
+  right: 1rem;
+}
+
+.vector42 {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  bottom: 5rem;
+  left: 37rem;
+}
+
+.vector14 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 1.8rem;
+  right: 10.7rem;
+  z-index: 2;
+}
+
+.vector15 {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  bottom: 47rem;
+  left: 25rem;
+}
+
+.vector16 {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 53rem;
+  left: 31rem;
+}
+
+.line-2 {
+  width: 34rem;
+  height: 4.7rem;
+  border-bottom: 2px solid orangered;
+  position: absolute;
+  bottom: 51rem;
+  left: 32.5rem;
+  transform: rotate(10deg);
+  z-index: 4;
+}
+
+.line-3 {
+  width: 12rem;
+  height: 4.7rem;
+  border-bottom: 2rem solid white;
+  position: absolute;
+  top: 10rem;
+  left: 55rem;
+  transform: rotate(45deg);
+  z-index: 3;
+}
+
+.line-4 {
+  width: 35rem;
+  border-bottom: 10rem solid white;
+  position: absolute;
+  bottom: 60rem;
+  left: 42rem;
+  transform: rotate(45deg);
+}
+
+.vector19 {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 5rem;
+  right: 4.5rem;
+  z-index: 3;
+}
+
+.vector21 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 3.3rem;
+  right: 2.2rem;
+  z-index: 3;
+}
+
+.vector21-1 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 5.2rem;
+  z-index: 10;
+}
+
+.vector21-2 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: -1rem;
+  right: 8.5rem;
+  z-index: 3;
+}
+
+.vector21-3 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 2.5rem;
+  right: 11rem;
+}
+
+.vector21-4 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: -3rem;
+  right: 2.5rem;
+}
+
+.vector21-5 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: -0.8rem;
+  right: -0.5rem;
+}
+
+.vector18 {
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+}
+
+.line-5 {
+  width: 20rem;
+  height: 4.7rem;
+  border-bottom: 2px solid orangered;
+  position: absolute;
+  top: 5.3rem;
+  right: -7.1rem;
+  transform: rotate(10deg);
+  z-index: 4;
+}
