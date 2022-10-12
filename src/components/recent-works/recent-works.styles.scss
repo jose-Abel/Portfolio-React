@@ -1,0 +1,80 @@
+.recent-works {
+  &-title {
+    width: 100%;
+    text-align: start;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 6rem 0 10rem;
+  }
+
+  & span {
+    background: #fff;
+    padding: 0 1rem;
+    font-size: 3rem;
+  }
+}
+
+.main-work {
+  &-box {
+    display: flex;
+  }
+
+  &-image {
+    width: 50%;
+    background-size: contain;
+  }
+
+  &-text {
+    &-box {
+      width: 50%;
+      line-height: 2;
+      margin-left: 5rem;
+      font-size: 16px;
+      font-family: 'Inter', serif, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      color: #091e42;
+    }
+
+    &-skills-box {
+      margin: 2.5rem 0;
+      list-style: none;
+      display: flex;
+    }
+  }
+}
+
+.nelson-sakwa {
+  color: black;
+  text-decoration: underline;
+}
+
+.skill {
+  border: 1px solid rgb(8, 2, 2);
+  padding: 1.5rem 2.5rem;
+  margin-right: 1rem;
+}
+
+.see-project-button {
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  border-radius: 1.2rem;
+  color: #fff;
+  background-color: #ff6b00;
+  font-size: 2.3rem;
+  font-weight: 100;
+  padding: 1rem 2rem;
+  border: solid #fff 0.1rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    background: #74665d;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    border-radius: 1.2rem;
+    text-decoration: none;
+  }
+}

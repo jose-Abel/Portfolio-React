@@ -17,7 +17,7 @@ const Hero = () => {
 						<a href="https://www.facebook.com/profile.php?id=100008206235156" className="social-media-links"><i className="fab fa-facebook"></i></a>
 					</li>
 					<li className="social-media-li">
-						<Link to="/login" className="social-media-links"><i class="fa fa-gear"></i></Link>
+						<Link to="/login" className="social-media-links"><i className="fa fa-gear"></i></Link>
 					</li>
 				</ul>
 			</div>
